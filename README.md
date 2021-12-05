@@ -52,7 +52,10 @@ Store the name of the first hotel in the DataFrame.
 Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
 
 ## Background
-xxx
+
+Creating a community outreach website for middle school STEM students.
+
+My company is going to focus on climate change, and since you know how to use Matplotlib, you decide to create some visualizations that showcase the weather parameters you retrieved with changing latitude for the 500-plus cities from all over the world. The students will then be able to use these visualizations to explore how weather parameters change based on latitude.
 
 ## Overview of Project
 Deliverables for the analysis of the school district:
