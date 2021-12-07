@@ -90,12 +90,14 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 1. Recalculate the different scores for Thomas High School by only calculating the
 
 #### 4. Data Retrieval Plan
-Read CSV with pandas
+* Generate random latitudes, longitudes with function random.
 ```
-school_data_to_load = "resources/schools_complete.csv"
-student_data_to_load = "resources/students_complete.csv"
-school_data_df = pd.read_csv(school_data_to_load)
-student_data_df = pd.read_csv(student_data_to_load)
+lats = np.random.uniform(low=-90.000, high=90.000, size=9000)
+lngs = np.random.uniform(low=-180.000, high=180.000, size=9000)
+```
+* Use the lat, long above with openweathermap.org API to find nearest cities for the coordinates and generate a cities database. Save that into:
+```
+WeatherPy_Database.csv
 ```
 
 #### 5. Assemble & Clean the Data
@@ -106,7 +108,7 @@ student_data_df = pd.read_csv(student_data_to_load)
 Compare results for all analysis from before student scores cleaning and after student scores cleaning.
 
 #### 7. Acknowledging Limitations
-* The free account only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for 1 minute between each API call using time functiom. See the code snippet below.
+* The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for 1 minute between each API call using time functiom. See the code snippet below.
 ```
 time.sleep(60)
 ```
