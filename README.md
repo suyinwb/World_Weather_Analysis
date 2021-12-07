@@ -57,6 +57,8 @@ Creating a community outreach website for middle school STEM students.
 
 My company is going to focus on climate change, and since you know how to use Matplotlib, you decide to create some visualizations that showcase the weather parameters you retrieved with changing latitude for the 500-plus cities from all over the world. The students will then be able to use these visualizations to explore how weather parameters change based on latitude.
 
+Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data you’ve already retrieved in this module. Then, I will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, you will create a travel route between the four cities as well as a marker layer map.
+
 ## Overview of Project
 Deliverables for the analysis of the school district:
 * A high-level snapshot of the district's key metrics, presented in a table format
@@ -104,7 +106,10 @@ student_data_df = pd.read_csv(student_data_to_load)
 Compare results for all analysis from before student scores cleaning and after student scores cleaning.
 
 #### 7. Acknowledging Limitations
-* Self limitations with pandas, therefore reference Stackover Flow multiple times.
+* The free account only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait. 
+```time.sleep()
+```
+to wait for 1 minute between each API call.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
