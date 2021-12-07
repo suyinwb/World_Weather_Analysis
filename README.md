@@ -106,11 +106,11 @@ student_data_df = pd.read_csv(student_data_to_load)
 Compare results for all analysis from before student scores cleaning and after student scores cleaning.
 
 #### 7. Acknowledging Limitations
-* The free account only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait.
+* The free account only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for 1 minute between each API call using time functiom. See the code snippet below.
 ```
-time.sleep()
+time.sleep(60)
 ```
-to wait for 1 minute between each API call.
+
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
