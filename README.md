@@ -1,15 +1,15 @@
 # World Weather Analysis
 
-At the most fundamental level, Jack needs help answering a question: How might we provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were (1) within a given range of latitude and longitude and that (2) provided the right kind of weather for the client.
+How might we provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were (1) within a given range of latitude and longitude and that (2) provided the right kind of weather for the client.
 
-When you get back to your desk, your first step is to write out a basic plan for how you'll write code that can do this fairly complex task.
+Outline of project plan:
 
-Here's an outline of your project plan:
+* Task: Collect and analyze weather data across cities worldwide.
+* Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
+* Method: Create a Pandas DataFrame with 2000 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
 
-Task: Collect and analyze weather data across cities worldwide.
-Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
-Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
-Your analysis of the data will be split into three main parts, or stages.
+
+The analysis of the data will be split into three main parts, or stages.
 
 Collect the Data
 
@@ -53,16 +53,17 @@ Add pop-up markers to the heatmap that display information about the city, curre
 
 ## Background
 
-Creating a community outreach website for middle school STEM students.
-
-My company is going to focus on climate change, and since you know how to use Matplotlib, you decide to create some visualizations that showcase the weather parameters you retrieved with changing latitude for the 500-plus cities from all over the world. The students will then be able to use these visualizations to explore how weather parameters change based on latitude.
-
-Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data you’ve already retrieved in this module. Then, I will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, you will create a travel route between the four cities as well as a marker layer map.
+Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data you’ve already retrieved in this module.
+Then, I will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels.
+From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, I will create a travel route between the four cities as well as a marker layer map.
 
 ## Overview of Project
-Deliverables for the analysis of the school district:
-* A high-level snapshot of the district's key metrics, presented in a table format
-* An overview of the key
+Deliverables for next level PlanMyTrip:
+* Adding the weather description to the weather data
+* Take user input to filter data for their weather preferences
+* Weather preferences input will be used to identify potential travel destinations & hotels
+* From the potential travel destination lists, user will be able to choose 4 destinations.
+* These 4 destinations will be considered one travel itinerary and using Google Maps Directions API, will create a travel route between the four cities as well as a marker layer map.
 
 ### Purpose
 
@@ -84,10 +85,10 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 * schools_complete.csv
 
 #### 3. Define Strategy & Metrics
-**Resource:** Python 3.6, Anaconda, Jupyter Notebook
+**Resource:** Python 3.6, Anaconda, Jupyter Notebook, OpenWeatherMap API, Google Maps API.
 
-1. Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
-1. Recalculate the different scores for Thomas High School by only calculating the
+1. xx
+1. xx
 
 #### 4. Data Retrieval Plan
 * Generate random latitudes, longitudes with function random.
@@ -109,6 +110,7 @@ Compare results for all analysis from before student scores cleaning and after s
 
 #### 7. Acknowledging Limitations
 * The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month. Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a little over 1 minute between each API call using time functiom. See the code snippet below.
+![blocked by OpenWeatherMap](images/openweatherapi_block.png)
 ```
 time.sleep(65)
 ```
