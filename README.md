@@ -19,20 +19,15 @@ Then, I will have the beta testers use input statements to filter the data for t
 From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, I will create a travel route between the four cities as well as a marker layer map.
 
 ## Overview of Project
+
+### Purpose
+
 Deliverables for next level PlanMyTrip:
 * Adding the weather description to the weather data
 * Take user input to filter data for their weather preferences
 * Weather preferences input will be used to identify potential travel destinations & hotels
 * From the potential travel destination lists, user will be able to choose 4 destinations.
 * These 4 destinations will be considered one travel itinerary and using Google Maps Directions API, will create a travel route between the four cities as well as a marker layer map.
-
-### Purpose
-
-Results:
-* How is the district summary affected?
-* How is the school summary affected?
-
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 ## Analysis And Challenges
 
@@ -107,10 +102,10 @@ WeatherPy_Database.csv
 
 
 #### 5. Assemble & Clean the Data
-Indicated in [Define Strategy & Metrics](#Define-Strategy-&-Metrics)
+Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 
 #### 6. Analyse for Trends
-Indicated in [Define Strategy & Metrics](#Define-Strategy-&-Metrics)
+Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 
 #### 7. Acknowledging Limitations
 * The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month.
@@ -126,25 +121,18 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
-First, start by nullifying the both the scores for Thomas High School 9th graders.
+
 
 >Old Thomas High School 9th Graders Scores
 
 ![Old Thomas High School 9th Graders Scores](resources/Old_student_data.png)
 
->New Thomas High School 9th Graders Scores
-
-![New Thomas High School 9th Graders Scores](resources/Clean_student_data.png)
 
 When we check the student data, we will confirm that there are _**416**_ students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
 
 
 ## Summary
-From the analysis above, the most significant differences are due to Thomas High Schools' academic dishonesty are:
 
-1. Thomas High School overall scores fell from _**90.94% to 65.07%**_. This means _**25.9%**_ discrepancy.
-1. Thomas High School math scores fell from _**93.27%% to 66.91%**_. This means _**26.36%**_ discrepancy.
-1. Thomas High School reading scores fell from _**97.3% to 69.66%**_. This means _**27.64%**_ discrepancy.
 
 
 ## Appendix
