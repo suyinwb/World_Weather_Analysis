@@ -1,0 +1,22 @@
+City_ID,City,Country,Max Temp,Current Description,Lat,Lng,Hotel Name
+115,Cherskiy,RU,232.43,overcast clouds,68.75,161.3,Gostinitsa
+169,Tiksi,RU,243.48,overcast clouds,71.6872,128.8694,Arktika
+252,Zhigansk,RU,239.23,overcast clouds,66.7697,123.3711,Gostinichnyy Kompleks Aylgy
+293,Bilibino,RU,236.56,overcast clouds,68.0546,166.4372,Gostinitsa Severyanka
+440,Verkhnevilyuysk,RU,243.17,overcast clouds,63.4453,120.3167,Gostinitsa Mila
+458,Pevek,RU,247.65,overcast clouds,69.7008,170.3133,Severnoye Zoloto
+623,Chernyshevskiy,RU,249.62,overcast clouds,63.0128,112.4714,Chernyseyskiy
+773,Ust-Nera,RU,235.69,overcast clouds,64.5667,143.2,Hotel Ust-Nera
+945,Deputatskiy,RU,238.18,overcast clouds,69.3,139.9,Baza Otdykha
+984,Usinsk,RU,249.86,few clouds,65.9939,57.5281,Dobro Pozhalovaty
+990,Moose Factory,CA,246.34,few clouds,51.2585,-80.6094,Moosonee Lilypad
+1079,Kapuskasing,CA,246.21,broken clouds,49.4169,-82.4331,Park Inn Motel
+1167,Snezhnogorsk,RU,248.03,broken clouds,69.1933,33.2531,Severnoye Siyaniye
+1250,Nyurba,RU,246.05,overcast clouds,63.2842,118.3319,Gostinitsa Alrosa
+1317,Polyarnyy,RU,248.41,broken clouds,69.1989,33.4478,Hotel Tatyana
+1339,Magadan,RU,246.74,clear sky,59.5667,150.8,Magadan hotel
+1486,Udachnyy,RU,243.15,overcast clouds,66.4167,112.4,Severnoye Siyaniye
+1601,Joutseno,FI,249.18,few clouds,61.118,28.5076,Joutseno.BB
+1930,Hearst,CA,243.29,overcast clouds,49.6835,-83.6665,Companion
+1978,Batagay,RU,242.56,overcast clouds,67.6333,134.6333,Gostinitsa Ki'ileekh
+2002,Khandyga,RU,247.09,overcast clouds,62.6667,135.6,Apel'sin
