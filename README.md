@@ -33,7 +33,7 @@ Deliverables for next level PlanMyTrip:
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-???
+1. To enable beta users to input their preferred temperatures and directions for 4 different locations that they would travel.
 
 #### 2. Identify the Datasource
 
@@ -99,7 +99,6 @@ lngs = np.random.uniform(low=-180.000, high=180.000, size=9000)
 WeatherPy_Database.csv
 ```
 
-
 #### 5. Assemble & Clean the Data
 Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 
@@ -124,18 +123,20 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+* Weather_Database
+Generates _**2262 cities**_ with latitude & longitude, then uses openweathermap API to get the corresponding weather information which is then stored in  WeatherPy_Database.csv.
 
+* Vacation_Search
+Uses WeatherPy_Database.csv from previous repository as dataset for user to choose their vacation spots from. User then inputs their preffered min and max temperature (in this example: _**90 and 250**_) to narrow their search. This generated input generated 44 results where some of the Hotel Names are blank. After data cleanup, there are only _**21 results with hotel names**_. These hotel information are in WeatherPy_vacation.csv. These 21 hotels are populated on google maps with their information as seen below.
 
->Old Thomas High School 9th Graders Scores
+>User Temperature Input Hotel Search
 
-![Old Thomas High School 9th Graders Scores](resources/Old_student_data.png)
-
-???
-When we check the student data, we will confirm that there are _**416**_ students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
+![User Temperature Input Hotel Search](Vacation_Search/WeatherPy_vacation_map.png)
 
 
 ## Summary
 
+This project was initially frustrating but the final outcome was quite beautiful and fun!
 
 
 ## Appendix
