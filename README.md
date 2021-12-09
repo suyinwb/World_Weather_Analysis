@@ -11,7 +11,6 @@ Outline of project plan:
 * Method: Create a Pandas DataFrame with 2000 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
 
 
-
 ## Background
 
 Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data you’ve already retrieved in this module.
@@ -110,13 +109,13 @@ Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 #### 7. Acknowledging Limitations
 * To always generate the same random latitude and longitude.
 ```
-np.random.seed(0)
+np.random.seed(74)
 ```
 * The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month.
 ![blocked by OpenWeatherMap](images/openweatherapi_block.png)
-Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a 2 seconds (therefore 30 calls per minute) between each API call using time function. See the code snippet below.
+Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a 1 seconds (therefore never exceeding 60 calls per minute) between each API call using time function. See the code snippet below.
 ```
-time.sleep(2)
+time.sleep(1)
 ```
 
 
