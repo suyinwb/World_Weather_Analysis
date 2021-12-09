@@ -117,7 +117,6 @@ Therefore in order to not constantly get blocked from making API call, I had to 
 time.sleep(1)
 ```
 
-
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
@@ -136,7 +135,7 @@ Uses WeatherPy_Database.csv from previous repository as dataset for user to choo
 
 ## Summary
 
-This project was initially frustrating but the final outcome was quite beautiful and fun!
+This project was initially frustrating as I hit both the openweathermap API max call-per-minute and exceeded the free USD$200 google API free threshold  but the final outcome was quite beautiful and fun!
 
 
 ## Appendix
