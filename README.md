@@ -34,7 +34,7 @@ Deliverables for next level PlanMyTrip:
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-The students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Uphold state-testing standards by keeping only Thomas High School scores for 10th to 12th graders.
+???
 
 #### 2. Identify the Datasource
 
@@ -127,7 +127,7 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ![Old Thomas High School 9th Graders Scores](resources/Old_student_data.png)
 
-
+???
 When we check the student data, we will confirm that there are _**416**_ students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
 
 
