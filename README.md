@@ -108,6 +108,10 @@ Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 
 #### 7. Acknowledging Limitations
+* To always generate the same random latitude and longitude.
+```
+np.random.seed(0)
+```
 * The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month.
 ![blocked by OpenWeatherMap](images/openweatherapi_block.png)
 Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a 2 seconds (therefore 30 calls per minute) between each API call using time function. See the code snippet below.
