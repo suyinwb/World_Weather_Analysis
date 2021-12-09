@@ -123,9 +123,11 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 ## Analysis
 
 * Weather_Database
+
 Generates _**2262 cities**_ with latitude & longitude, then uses openweathermap API to get the corresponding weather information which is then stored in  WeatherPy_Database.csv.
 
 * Vacation_Search
+
 Uses WeatherPy_Database.csv from previous repository as dataset for user to choose their vacation spots from. User then inputs their preffered min and max temperature to narrow their search. This generated input generated results where some of the Hotel Names are blank. After data cleanup, no records will have NULL value. These hotel information are in WeatherPy_vacation.csv. These hotels are then populated on google maps with their information as seen below.
 
 >User Temperature Input Hotel Search
@@ -133,13 +135,14 @@ Uses WeatherPy_Database.csv from previous repository as dataset for user to choo
 ![User Temperature Input Hotel Search](Vacation_Search/WeatherPy_vacation_map.png)
 
 * Vacation_Itinerary
+
 Uses WeatherPy_vacation.csv from previous repository as dataset for user to choose 4 different hotel locations as itinerary. Then using Google Map API to create travel route between these 4 cities as seen below.
 
 >Travel itinerary
 
 ![Travel itinerary](Vacation_Itinerary/WeatherPy_travel_map.png)
 
-We're also able to check the weather information for just these 4 locations as seen below. 
+We're also able to check the weather information for just these 4 locations as seen below.
 >Travel itinerary Pop Up
 
 ![Travel itinerary pop up](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
