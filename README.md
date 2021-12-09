@@ -1,6 +1,6 @@
 # World Weather Analysis
 
-How might we provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were:
+How might we provide real-time suggestions for our client's ideal hotels? My first task was to define what it meant by "ideal." So, over the course of the conversation, I narrowed that to hotels that were:
 * within a given range of latitude and longitude
 * provided the right kind of weather for the client
 
