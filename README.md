@@ -110,9 +110,9 @@ Indicated in [Define Strategy & Metrics](#define-strategy--metrics)
 #### 7. Acknowledging Limitations
 * The free account for openweathermap.org only allows 60 calls/minute and 1,000,000 calls/month.
 ![blocked by OpenWeatherMap](images/openweatherapi_block.png)
-Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a little over 1 minute between each API call using time function. See the code snippet below.
+Therefore in order to not constantly get blocked from making API call, I had to slow down the script by making the for loop wait for a 2 seconds (therefore 30 calls per minute) between each API call using time function. See the code snippet below.
 ```
-time.sleep(65)
+time.sleep(2)
 ```
 
 
