@@ -136,7 +136,7 @@ Uses WeatherPy_Database.csv from previous repository as dataset for user to choo
 
 * Vacation_Itinerary
 
-Uses WeatherPy_vacation.csv from previous repository as dataset for user to choose 4 different hotel locations as itinerary. Then using Google Map API to create travel route between these 4 cities as seen below.
+Uses WeatherPy_vacation.csv from previous repository as dataset for user to choose 4 different locations as itinerary. Then using Google Map API to create travel route between these 4 cities as seen below.
 
 >Travel itinerary
 
